@@ -1,0 +1,32 @@
+# Binary
+lxc-dev-manager
+
+# Test binary
+*.test
+
+# Go build cache
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local config (user's actual containers)
+containers.yaml
+containers.yaml.lock
+
+# Documentation (VitePress)
+docs/node_modules/
+docs/.vitepress/dist/
+docs/.vitepress/cache/
